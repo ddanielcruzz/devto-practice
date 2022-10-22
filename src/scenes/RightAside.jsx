@@ -17,7 +17,7 @@ const response = [
 
 export const RightAside = () => {
   return (
-    <aside className="flex flex-col space-y-4">
+    <aside className="flex flex-col space-y-4 hidden md:block">
       <Card title="Listings">
         {response.map((listing) => (
           <CardArticle
